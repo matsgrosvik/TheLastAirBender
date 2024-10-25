@@ -1,0 +1,26 @@
+.bender {
+  display: flex;
+  gap: 40px;
+  &__panel {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+    background-color: aquamarine;
+    gap: 20px;
+    textarea {
+      font-size: 20px;
+    }
+  }
+}
+
+@font-face {
+  font-family: "Bender";
+  src: url(BagossStandard-Regular.woff) format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+text {
+  font-family: Bender;
+}
